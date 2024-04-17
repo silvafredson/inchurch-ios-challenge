@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		658155C72BCFD3650070CC1A /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658155C62BCFD3650070CC1A /* LoadingView.swift */; };
 		659DD3182BCD9A0C00059CFE /* inchurch_ios_challengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659DD3172BCD9A0C00059CFE /* inchurch_ios_challengeApp.swift */; };
 		659DD31A2BCD9A0C00059CFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659DD3192BCD9A0C00059CFE /* ContentView.swift */; };
 		659DD31C2BCD9A0D00059CFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 659DD31B2BCD9A0D00059CFE /* Assets.xcassets */; };
@@ -15,9 +16,11 @@
 		659DD3282BCDAA8C00059CFE /* MoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659DD3272BCDAA8C00059CFE /* MoviesView.swift */; };
 		659DD32B2BCDAAB300059CFE /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659DD32A2BCDAAB300059CFE /* FavoritesView.swift */; };
 		659DD32D2BCE0B3700059CFE /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659DD32C2BCE0B3700059CFE /* RectangleView.swift */; };
+		659DD32F2BCEE97100059CFE /* GetMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659DD32E2BCEE97100059CFE /* GetMovies.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		658155C62BCFD3650070CC1A /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		659DD3142BCD9A0C00059CFE /* inchurch-ios-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "inchurch-ios-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		659DD3172BCD9A0C00059CFE /* inchurch_ios_challengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inchurch_ios_challengeApp.swift; sourceTree = "<group>"; };
 		659DD3192BCD9A0C00059CFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -27,6 +30,7 @@
 		659DD3272BCDAA8C00059CFE /* MoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesView.swift; sourceTree = "<group>"; };
 		659DD32A2BCDAAB300059CFE /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		659DD32C2BCE0B3700059CFE /* RectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleView.swift; sourceTree = "<group>"; };
+		659DD32E2BCEE97100059CFE /* GetMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMovies.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +64,10 @@
 		659DD3162BCD9A0C00059CFE /* inchurch-ios-challenge */ = {
 			isa = PBXGroup;
 			children = (
-				659DD3292BCDAA9200059CFE /* Views */,
 				659DD3172BCD9A0C00059CFE /* inchurch_ios_challengeApp.swift */,
+				659DD3292BCDAA9200059CFE /* Views */,
 				659DD3192BCD9A0C00059CFE /* ContentView.swift */,
+				659DD32E2BCEE97100059CFE /* GetMovies.swift */,
 				659DD31B2BCD9A0D00059CFE /* Assets.xcassets */,
 				659DD31D2BCD9A0D00059CFE /* Preview Content */,
 			);
@@ -83,6 +88,7 @@
 				659DD32C2BCE0B3700059CFE /* RectangleView.swift */,
 				659DD3272BCDAA8C00059CFE /* MoviesView.swift */,
 				659DD32A2BCDAAB300059CFE /* FavoritesView.swift */,
+				658155C62BCFD3650070CC1A /* LoadingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -163,6 +169,8 @@
 				659DD32B2BCDAAB300059CFE /* FavoritesView.swift in Sources */,
 				659DD3182BCD9A0C00059CFE /* inchurch_ios_challengeApp.swift in Sources */,
 				659DD32D2BCE0B3700059CFE /* RectangleView.swift in Sources */,
+				658155C72BCFD3650070CC1A /* LoadingView.swift in Sources */,
+				659DD32F2BCEE97100059CFE /* GetMovies.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +311,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,9 +319,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.silvafredson.inchurch-ios-challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -331,6 +344,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -338,9 +352,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.silvafredson.inchurch-ios-challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
