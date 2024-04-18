@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		658155C72BCFD3650070CC1A /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658155C62BCFD3650070CC1A /* LoadingView.swift */; };
 		658155C92BCFDD590070CC1A /* NotFoundHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658155C82BCFDD590070CC1A /* NotFoundHomeView.swift */; };
+		658250952BD18CF1003441BE /* NoFavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658250942BD18CF1003441BE /* NoFavoriteView.swift */; };
 		658F7A3E2BD066D10097C5ED /* MoviesInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658F7A3D2BD066D10097C5ED /* MoviesInfoView.swift */; };
 		6599A2672BD050CF00C08908 /* ErroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6599A2662BD050CF00C08908 /* ErroView.swift */; };
 		659DD3182BCD9A0C00059CFE /* inchurch_ios_challengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659DD3172BCD9A0C00059CFE /* inchurch_ios_challengeApp.swift */; };
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		658155C62BCFD3650070CC1A /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		658155C82BCFDD590070CC1A /* NotFoundHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotFoundHomeView.swift; sourceTree = "<group>"; };
+		658250942BD18CF1003441BE /* NoFavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoFavoriteView.swift; sourceTree = "<group>"; };
 		658F7A3D2BD066D10097C5ED /* MoviesInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesInfoView.swift; sourceTree = "<group>"; };
 		6599A2662BD050CF00C08908 /* ErroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErroView.swift; sourceTree = "<group>"; };
 		659DD3142BCD9A0C00059CFE /* inchurch-ios-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "inchurch-ios-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,6 +100,7 @@
 				658155C82BCFDD590070CC1A /* NotFoundHomeView.swift */,
 				6599A2662BD050CF00C08908 /* ErroView.swift */,
 				658F7A3D2BD066D10097C5ED /* MoviesInfoView.swift */,
+				658250942BD18CF1003441BE /* NoFavoriteView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				658155C92BCFDD590070CC1A /* NotFoundHomeView.swift in Sources */,
 				658F7A3E2BD066D10097C5ED /* MoviesInfoView.swift in Sources */,
 				658155C72BCFD3650070CC1A /* LoadingView.swift in Sources */,
+				658250952BD18CF1003441BE /* NoFavoriteView.swift in Sources */,
 				659DD32F2BCEE97100059CFE /* GetMovies.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
