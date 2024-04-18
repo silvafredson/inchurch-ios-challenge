@@ -12,7 +12,8 @@ struct ErroView: View {
         VStack {
             Text("🙁")
                 .font(.system(size: 120))
-            Text("An error has occurred. Tap here to try again")
+            Text("Something went wrong while loading movies data. Please try refreshing the page.")
+                .padding(.horizontal)
         }
     }
 }
