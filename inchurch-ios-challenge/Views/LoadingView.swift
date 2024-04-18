@@ -12,8 +12,12 @@ struct LoadingView: View {
         ZStack {
             Color(.systemBackground)
                 .ignoresSafeArea()
-            ProgressView()
-                .scaleEffect(2)
+            VStack {
+                ProgressView()
+                    .scaleEffect(2)
+                    .padding()
+                Text("Loading Movies...")
+            }
         }
     }
 }
