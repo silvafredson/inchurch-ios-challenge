@@ -8,8 +8,19 @@
 import SwiftUI
 
 struct FavoritesView: View {
+    
+    let columns = [GridItem(.adaptive(minimum: .infinity, maximum: .infinity))]
+    
     var body: some View {
-        Text("Favorites")
+        ScrollView {
+            ScrollView {
+                 LazyVGrid(columns: columns) {
+                     ForEach(0..<8, id: \.self) { rectangle in
+                         HorizontalRectangleView()
+                     }
+                 }
+             }
+        }
     }
 }
 

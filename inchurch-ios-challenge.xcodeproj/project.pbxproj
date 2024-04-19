@@ -10,6 +10,9 @@
 		658155C72BCFD3650070CC1A /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658155C62BCFD3650070CC1A /* LoadingView.swift */; };
 		658155C92BCFDD590070CC1A /* NotFoundHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658155C82BCFDD590070CC1A /* NotFoundHomeView.swift */; };
 		658250952BD18CF1003441BE /* NoFavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658250942BD18CF1003441BE /* NoFavoriteView.swift */; };
+		658250972BD19F35003441BE /* PopularMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658250962BD19F35003441BE /* PopularMovies.swift */; };
+		658250992BD1A3C8003441BE /* MoviesError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658250982BD1A3C8003441BE /* MoviesError.swift */; };
+		6582509C2BD1FCE6003441BE /* HorizontalRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6582509B2BD1FCE6003441BE /* HorizontalRectangleView.swift */; };
 		658F7A3E2BD066D10097C5ED /* MoviesInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658F7A3D2BD066D10097C5ED /* MoviesInfoView.swift */; };
 		6599A2672BD050CF00C08908 /* ErroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6599A2662BD050CF00C08908 /* ErroView.swift */; };
 		659DD3182BCD9A0C00059CFE /* inchurch_ios_challengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659DD3172BCD9A0C00059CFE /* inchurch_ios_challengeApp.swift */; };
@@ -27,6 +30,9 @@
 		658155C62BCFD3650070CC1A /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		658155C82BCFDD590070CC1A /* NotFoundHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotFoundHomeView.swift; sourceTree = "<group>"; };
 		658250942BD18CF1003441BE /* NoFavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoFavoriteView.swift; sourceTree = "<group>"; };
+		658250962BD19F35003441BE /* PopularMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMovies.swift; sourceTree = "<group>"; };
+		658250982BD1A3C8003441BE /* MoviesError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesError.swift; sourceTree = "<group>"; };
+		6582509B2BD1FCE6003441BE /* HorizontalRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalRectangleView.swift; sourceTree = "<group>"; };
 		658F7A3D2BD066D10097C5ED /* MoviesInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesInfoView.swift; sourceTree = "<group>"; };
 		6599A2662BD050CF00C08908 /* ErroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErroView.swift; sourceTree = "<group>"; };
 		659DD3142BCD9A0C00059CFE /* inchurch-ios-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "inchurch-ios-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +58,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6582509A2BD1A3D2003441BE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				659DD32E2BCEE97100059CFE /* GetMovies.swift */,
+				658250962BD19F35003441BE /* PopularMovies.swift */,
+				658250982BD1A3C8003441BE /* MoviesError.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		659DD30B2BCD9A0C00059CFE = {
 			isa = PBXGroup;
 			children = (
@@ -72,10 +88,10 @@
 		659DD3162BCD9A0C00059CFE /* inchurch-ios-challenge */ = {
 			isa = PBXGroup;
 			children = (
+				6582509A2BD1A3D2003441BE /* Data */,
 				659DD3172BCD9A0C00059CFE /* inchurch_ios_challengeApp.swift */,
 				659DD3292BCDAA9200059CFE /* Views */,
 				659DD3192BCD9A0C00059CFE /* ContentView.swift */,
-				659DD32E2BCEE97100059CFE /* GetMovies.swift */,
 				659DD31B2BCD9A0D00059CFE /* Assets.xcassets */,
 				659DD31D2BCD9A0D00059CFE /* Preview Content */,
 			);
@@ -95,6 +111,7 @@
 			children = (
 				659DD32C2BCE0B3700059CFE /* RectangleView.swift */,
 				659DD3272BCDAA8C00059CFE /* MoviesView.swift */,
+				6582509B2BD1FCE6003441BE /* HorizontalRectangleView.swift */,
 				659DD32A2BCDAAB300059CFE /* FavoritesView.swift */,
 				658155C62BCFD3650070CC1A /* LoadingView.swift */,
 				658155C82BCFDD590070CC1A /* NotFoundHomeView.swift */,
@@ -182,9 +199,12 @@
 				659DD32B2BCDAAB300059CFE /* FavoritesView.swift in Sources */,
 				659DD3182BCD9A0C00059CFE /* inchurch_ios_challengeApp.swift in Sources */,
 				659DD32D2BCE0B3700059CFE /* RectangleView.swift in Sources */,
+				6582509C2BD1FCE6003441BE /* HorizontalRectangleView.swift in Sources */,
 				658155C92BCFDD590070CC1A /* NotFoundHomeView.swift in Sources */,
 				658F7A3E2BD066D10097C5ED /* MoviesInfoView.swift in Sources */,
+				658250972BD19F35003441BE /* PopularMovies.swift in Sources */,
 				658155C72BCFD3650070CC1A /* LoadingView.swift in Sources */,
+				658250992BD1A3C8003441BE /* MoviesError.swift in Sources */,
 				658250952BD18CF1003441BE /* NoFavoriteView.swift in Sources */,
 				659DD32F2BCEE97100059CFE /* GetMovies.swift in Sources */,
 			);
@@ -327,7 +347,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -360,7 +380,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
