@@ -14,6 +14,7 @@
 		658250992BD1A3C8003441BE /* MoviesError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658250982BD1A3C8003441BE /* MoviesError.swift */; };
 		6582509C2BD1FCE6003441BE /* HorizontalRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6582509B2BD1FCE6003441BE /* HorizontalRectangleView.swift */; };
 		658F7A3E2BD066D10097C5ED /* MoviesInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658F7A3D2BD066D10097C5ED /* MoviesInfoView.swift */; };
+		65936BBA2BD9FC21004D2D91 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65936BB92BD9FC21004D2D91 /* SearchBarView.swift */; };
 		6599A2672BD050CF00C08908 /* ErroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6599A2662BD050CF00C08908 /* ErroView.swift */; };
 		659DD3182BCD9A0C00059CFE /* inchurch_ios_challengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659DD3172BCD9A0C00059CFE /* inchurch_ios_challengeApp.swift */; };
 		659DD31A2BCD9A0C00059CFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659DD3192BCD9A0C00059CFE /* ContentView.swift */; };
@@ -34,6 +35,7 @@
 		658250982BD1A3C8003441BE /* MoviesError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesError.swift; sourceTree = "<group>"; };
 		6582509B2BD1FCE6003441BE /* HorizontalRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalRectangleView.swift; sourceTree = "<group>"; };
 		658F7A3D2BD066D10097C5ED /* MoviesInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesInfoView.swift; sourceTree = "<group>"; };
+		65936BB92BD9FC21004D2D91 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		6599A2662BD050CF00C08908 /* ErroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErroView.swift; sourceTree = "<group>"; };
 		659DD3142BCD9A0C00059CFE /* inchurch-ios-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "inchurch-ios-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		659DD3172BCD9A0C00059CFE /* inchurch_ios_challengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inchurch_ios_challengeApp.swift; sourceTree = "<group>"; };
@@ -88,8 +90,8 @@
 		659DD3162BCD9A0C00059CFE /* inchurch-ios-challenge */ = {
 			isa = PBXGroup;
 			children = (
-				6582509A2BD1A3D2003441BE /* Data */,
 				659DD3172BCD9A0C00059CFE /* inchurch_ios_challengeApp.swift */,
+				6582509A2BD1A3D2003441BE /* Data */,
 				659DD3292BCDAA9200059CFE /* Views */,
 				659DD3192BCD9A0C00059CFE /* ContentView.swift */,
 				659DD31B2BCD9A0D00059CFE /* Assets.xcassets */,
@@ -118,6 +120,7 @@
 				6599A2662BD050CF00C08908 /* ErroView.swift */,
 				658F7A3D2BD066D10097C5ED /* MoviesInfoView.swift */,
 				658250942BD18CF1003441BE /* NoFavoriteView.swift */,
+				65936BB92BD9FC21004D2D91 /* SearchBarView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				658155C92BCFDD590070CC1A /* NotFoundHomeView.swift in Sources */,
 				658F7A3E2BD066D10097C5ED /* MoviesInfoView.swift in Sources */,
 				658250972BD19F35003441BE /* PopularMovies.swift in Sources */,
+				65936BBA2BD9FC21004D2D91 /* SearchBarView.swift in Sources */,
 				658155C72BCFD3650070CC1A /* LoadingView.swift in Sources */,
 				658250992BD1A3C8003441BE /* MoviesError.swift in Sources */,
 				658250952BD18CF1003441BE /* NoFavoriteView.swift in Sources */,

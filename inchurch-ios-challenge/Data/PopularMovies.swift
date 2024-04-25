@@ -10,7 +10,11 @@ import Foundation
 struct PopularMovies: Codable {
     let originalTitle: String
     let releaseDate: String
-    let genderIds: [Int]
+    let genreIds: [Int]
     let overview: String
     let posterPath: String
+}
+
+struct PopularMoviesResponse: Codable {
+    let results: [PopularMovies]
 }

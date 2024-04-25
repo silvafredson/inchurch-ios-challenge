@@ -9,6 +9,8 @@ import SwiftUI
 
 struct MoviesView: View {
     
+    @State private var movies: PopularMoviesResponse?
+    
     var body: some View {
         ScrollView {
             LazyVGrid(columns: [GridItem(.flexible(), spacing: -16), GridItem(.flexible())]) {

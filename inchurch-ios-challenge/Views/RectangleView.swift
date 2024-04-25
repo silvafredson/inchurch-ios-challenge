@@ -9,22 +9,25 @@ import SwiftUI
 
 struct RectangleView: View {
     
-    @State private var movies: PopularMovies?
+    @State private var movies: PopularMoviesResponse?
+    //let baseURL = "https://image.tmdb.org/t/p/w500"
+
     
     var body: some View {
         VStack {
-            
-            AsyncImage(url: URL(string: movies?.posterPath ?? "")) { image in
-                image
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-            } placeholder: {
-                Rectangle()
+            if let movie = movies?.results.first { // Assuming you only want to display the first movie
+                AsyncImage(url: URL(string: "https://image.tmdb.org/t/p/w500\(movie.posterPath)")) { image in
+                    image
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                } placeholder: {
+                    Rectangle()
+                }
+                .frame(width: 180, height: 240)
+                .cornerRadius(12)
+            } else {
+                LoadingView() // Placeholder view while movies are being loaded
             }
-            .frame(width: 180, height: 240)
-            .cornerRadius(12)
-            
-
         }
         //.padding(8)
         .task {
@@ -43,6 +46,8 @@ struct RectangleView: View {
 
 }
 
+
 #Preview {
     RectangleView()
 }
+
