@@ -9,21 +9,24 @@ import SwiftUI
 
 struct FavoritesView: View {
     
+    var movies: [PopularMovies]
+    
     let columns = [GridItem(.adaptive(minimum: .infinity, maximum: .infinity))]
     
     var body: some View {
         ScrollView {
-            ScrollView {
-                 LazyVGrid(columns: columns) {
-                     ForEach(0..<8, id: \.self) { rectangle in
-                         HorizontalRectangleView()
-                     }
-                 }
-             }
+            LazyVGrid(columns: columns) {
+                //ForEach(movies, id: \.id) { movie in
+                    //HorizontalRectangleView(movie: movie)
+                }
+            }
         }
     }
-}
+//}
 
 #Preview {
-    FavoritesView()
+    FavoritesView(movies: [])
 }
+
+
+

@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct MoviesInfoView: View {
+    
+    @State private var movies: PopularMovies?
+    
     var body: some View {
         VStack {
 
@@ -15,7 +18,7 @@ struct MoviesInfoView: View {
                 .resizable()
                 .scaledToFit()
             
-            Text("Realase date: 04/06/2024")
+            Text(movies?.releaseDate ?? "")
                 .font(.system(size: 16, weight: .semibold))
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding([.top, .leading])
@@ -27,7 +30,7 @@ struct MoviesInfoView: View {
                 .padding([.top, .leading, .bottom])
                 .foregroundColor(.gray)
             
-            Text("Seasoned musician Jackson Maine discovers-and falls in love with-struggling artist Ally. She has just about given up on her dream to make it big as a singer-until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.")
+            Text(movies?.overview ?? "")
                 .padding()
         }
     }

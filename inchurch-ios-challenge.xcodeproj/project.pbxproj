@@ -14,16 +14,21 @@
 		658250992BD1A3C8003441BE /* MoviesError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658250982BD1A3C8003441BE /* MoviesError.swift */; };
 		6582509C2BD1FCE6003441BE /* HorizontalRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6582509B2BD1FCE6003441BE /* HorizontalRectangleView.swift */; };
 		658F7A3E2BD066D10097C5ED /* MoviesInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658F7A3D2BD066D10097C5ED /* MoviesInfoView.swift */; };
+		65936BBA2BD9FC21004D2D91 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65936BB92BD9FC21004D2D91 /* SearchBarView.swift */; };
+		65936BBD2BDACC42004D2D91 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65936BBC2BDACC42004D2D91 /* APIManager.swift */; };
+		65936BBF2BDAEA14004D2D91 /* EndPointManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65936BBE2BDAEA14004D2D91 /* EndPointManager.swift */; };
+		65936BC22BDAEA67004D2D91 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65936BC12BDAEA67004D2D91 /* EndPoint.swift */; };
+		65936BC52BDAEE75004D2D91 /* PopularMovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65936BC42BDAEE75004D2D91 /* PopularMovieViewModel.swift */; };
 		6599A2672BD050CF00C08908 /* ErroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6599A2662BD050CF00C08908 /* ErroView.swift */; };
 		659DD3182BCD9A0C00059CFE /* inchurch_ios_challengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659DD3172BCD9A0C00059CFE /* inchurch_ios_challengeApp.swift */; };
 		659DD31A2BCD9A0C00059CFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659DD3192BCD9A0C00059CFE /* ContentView.swift */; };
 		659DD31C2BCD9A0D00059CFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 659DD31B2BCD9A0D00059CFE /* Assets.xcassets */; };
 		659DD31F2BCD9A0D00059CFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 659DD31E2BCD9A0D00059CFE /* Preview Assets.xcassets */; };
 		659DD3262BCD9C9600059CFE /* Inchurch iOS Challenge README.md in Resources */ = {isa = PBXBuildFile; fileRef = 659DD3252BCD9C9600059CFE /* Inchurch iOS Challenge README.md */; };
-		659DD3282BCDAA8C00059CFE /* MoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659DD3272BCDAA8C00059CFE /* MoviesView.swift */; };
+		659DD3282BCDAA8C00059CFE /* PopularMoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659DD3272BCDAA8C00059CFE /* PopularMoviesView.swift */; };
 		659DD32B2BCDAAB300059CFE /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659DD32A2BCDAAB300059CFE /* FavoritesView.swift */; };
-		659DD32D2BCE0B3700059CFE /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659DD32C2BCE0B3700059CFE /* RectangleView.swift */; };
-		659DD32F2BCEE97100059CFE /* GetMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659DD32E2BCEE97100059CFE /* GetMovies.swift */; };
+		659DD32D2BCE0B3700059CFE /* MovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659DD32C2BCE0B3700059CFE /* MovieView.swift */; };
+		D448115A88BA8095B134C153 /* Pods_inchurch_ios_challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4FDEBDF51DA45699506B57A /* Pods_inchurch_ios_challenge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +39,11 @@
 		658250982BD1A3C8003441BE /* MoviesError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesError.swift; sourceTree = "<group>"; };
 		6582509B2BD1FCE6003441BE /* HorizontalRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalRectangleView.swift; sourceTree = "<group>"; };
 		658F7A3D2BD066D10097C5ED /* MoviesInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesInfoView.swift; sourceTree = "<group>"; };
+		65936BB92BD9FC21004D2D91 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		65936BBC2BDACC42004D2D91 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		65936BBE2BDAEA14004D2D91 /* EndPointManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointManager.swift; sourceTree = "<group>"; };
+		65936BC12BDAEA67004D2D91 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		65936BC42BDAEE75004D2D91 /* PopularMovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMovieViewModel.swift; sourceTree = "<group>"; };
 		6599A2662BD050CF00C08908 /* ErroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErroView.swift; sourceTree = "<group>"; };
 		659DD3142BCD9A0C00059CFE /* inchurch-ios-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "inchurch-ios-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		659DD3172BCD9A0C00059CFE /* inchurch_ios_challengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inchurch_ios_challengeApp.swift; sourceTree = "<group>"; };
@@ -41,10 +51,13 @@
 		659DD31B2BCD9A0D00059CFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		659DD31E2BCD9A0D00059CFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		659DD3252BCD9C9600059CFE /* Inchurch iOS Challenge README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Inchurch iOS Challenge README.md"; sourceTree = "<group>"; };
-		659DD3272BCDAA8C00059CFE /* MoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesView.swift; sourceTree = "<group>"; };
+		659DD3272BCDAA8C00059CFE /* PopularMoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMoviesView.swift; sourceTree = "<group>"; };
 		659DD32A2BCDAAB300059CFE /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
-		659DD32C2BCE0B3700059CFE /* RectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleView.swift; sourceTree = "<group>"; };
-		659DD32E2BCEE97100059CFE /* GetMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMovies.swift; sourceTree = "<group>"; };
+		659DD32C2BCE0B3700059CFE /* MovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieView.swift; sourceTree = "<group>"; };
+		65F851FD2BDAF5C8003652CB /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C528C60199870F30D819F3B /* Pods-inchurch-ios-challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inchurch-ios-challenge.debug.xcconfig"; path = "Target Support Files/Pods-inchurch-ios-challenge/Pods-inchurch-ios-challenge.debug.xcconfig"; sourceTree = "<group>"; };
+		CBFB1592B0D750C1096E4A61 /* Pods-inchurch-ios-challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inchurch-ios-challenge.release.xcconfig"; path = "Target Support Files/Pods-inchurch-ios-challenge/Pods-inchurch-ios-challenge.release.xcconfig"; sourceTree = "<group>"; };
+		D4FDEBDF51DA45699506B57A /* Pods_inchurch_ios_challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_inchurch_ios_challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D448115A88BA8095B134C153 /* Pods_inchurch_ios_challenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,11 +75,36 @@
 		6582509A2BD1A3D2003441BE /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				659DD32E2BCEE97100059CFE /* GetMovies.swift */,
 				658250962BD19F35003441BE /* PopularMovies.swift */,
 				658250982BD1A3C8003441BE /* MoviesError.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		65936BBB2BDACBFA004D2D91 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				65936BBC2BDACC42004D2D91 /* APIManager.swift */,
+				65936BBE2BDAEA14004D2D91 /* EndPointManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		65936BC02BDAEA55004D2D91 /* EndPoints */ = {
+			isa = PBXGroup;
+			children = (
+				65936BC12BDAEA67004D2D91 /* EndPoint.swift */,
+			);
+			path = EndPoints;
+			sourceTree = "<group>";
+		};
+		65936BC32BDAEE4B004D2D91 /* Populars */ = {
+			isa = PBXGroup;
+			children = (
+				659DD3272BCDAA8C00059CFE /* PopularMoviesView.swift */,
+				65936BC42BDAEE75004D2D91 /* PopularMovieViewModel.swift */,
+			);
+			path = Populars;
 			sourceTree = "<group>";
 		};
 		659DD30B2BCD9A0C00059CFE = {
@@ -74,6 +113,8 @@
 				659DD3252BCD9C9600059CFE /* Inchurch iOS Challenge README.md */,
 				659DD3162BCD9A0C00059CFE /* inchurch-ios-challenge */,
 				659DD3152BCD9A0C00059CFE /* Products */,
+				FBF7D38FBBB8FE1F1011B00A /* Pods */,
+				BF65F90539E235CDBA35D969 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,8 +129,10 @@
 		659DD3162BCD9A0C00059CFE /* inchurch-ios-challenge */ = {
 			isa = PBXGroup;
 			children = (
-				6582509A2BD1A3D2003441BE /* Data */,
+				65936BC02BDAEA55004D2D91 /* EndPoints */,
+				65936BBB2BDACBFA004D2D91 /* Services */,
 				659DD3172BCD9A0C00059CFE /* inchurch_ios_challengeApp.swift */,
+				6582509A2BD1A3D2003441BE /* Data */,
 				659DD3292BCDAA9200059CFE /* Views */,
 				659DD3192BCD9A0C00059CFE /* ContentView.swift */,
 				659DD31B2BCD9A0D00059CFE /* Assets.xcassets */,
@@ -109,8 +152,8 @@
 		659DD3292BCDAA9200059CFE /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				659DD32C2BCE0B3700059CFE /* RectangleView.swift */,
-				659DD3272BCDAA8C00059CFE /* MoviesView.swift */,
+				65936BC32BDAEE4B004D2D91 /* Populars */,
+				659DD32C2BCE0B3700059CFE /* MovieView.swift */,
 				6582509B2BD1FCE6003441BE /* HorizontalRectangleView.swift */,
 				659DD32A2BCDAAB300059CFE /* FavoritesView.swift */,
 				658155C62BCFD3650070CC1A /* LoadingView.swift */,
@@ -118,8 +161,27 @@
 				6599A2662BD050CF00C08908 /* ErroView.swift */,
 				658F7A3D2BD066D10097C5ED /* MoviesInfoView.swift */,
 				658250942BD18CF1003441BE /* NoFavoriteView.swift */,
+				65936BB92BD9FC21004D2D91 /* SearchBarView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		BF65F90539E235CDBA35D969 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65F851FD2BDAF5C8003652CB /* Kingfisher.framework */,
+				D4FDEBDF51DA45699506B57A /* Pods_inchurch_ios_challenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBF7D38FBBB8FE1F1011B00A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C528C60199870F30D819F3B /* Pods-inchurch-ios-challenge.debug.xcconfig */,
+				CBFB1592B0D750C1096E4A61 /* Pods-inchurch-ios-challenge.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 659DD3222BCD9A0D00059CFE /* Build configuration list for PBXNativeTarget "inchurch-ios-challenge" */;
 			buildPhases = (
+				C819273C996DE6C281E8BCC6 /* [CP] Check Pods Manifest.lock */,
 				659DD3102BCD9A0C00059CFE /* Sources */,
 				659DD3112BCD9A0C00059CFE /* Frameworks */,
 				659DD3122BCD9A0C00059CFE /* Resources */,
+				1CDCD42E9BFA8F52D49BDFC0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -188,25 +252,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1CDCD42E9BFA8F52D49BDFC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-inchurch-ios-challenge/Pods-inchurch-ios-challenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-inchurch-ios-challenge/Pods-inchurch-ios-challenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-inchurch-ios-challenge/Pods-inchurch-ios-challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C819273C996DE6C281E8BCC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-inchurch-ios-challenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		659DD3102BCD9A0C00059CFE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				659DD31A2BCD9A0C00059CFE /* ContentView.swift in Sources */,
-				659DD3282BCDAA8C00059CFE /* MoviesView.swift in Sources */,
+				659DD3282BCDAA8C00059CFE /* PopularMoviesView.swift in Sources */,
 				6599A2672BD050CF00C08908 /* ErroView.swift in Sources */,
 				659DD32B2BCDAAB300059CFE /* FavoritesView.swift in Sources */,
+				65936BBD2BDACC42004D2D91 /* APIManager.swift in Sources */,
 				659DD3182BCD9A0C00059CFE /* inchurch_ios_challengeApp.swift in Sources */,
-				659DD32D2BCE0B3700059CFE /* RectangleView.swift in Sources */,
+				659DD32D2BCE0B3700059CFE /* MovieView.swift in Sources */,
 				6582509C2BD1FCE6003441BE /* HorizontalRectangleView.swift in Sources */,
 				658155C92BCFDD590070CC1A /* NotFoundHomeView.swift in Sources */,
+				65936BC52BDAEE75004D2D91 /* PopularMovieViewModel.swift in Sources */,
 				658F7A3E2BD066D10097C5ED /* MoviesInfoView.swift in Sources */,
+				65936BC22BDAEA67004D2D91 /* EndPoint.swift in Sources */,
+				65936BBF2BDAEA14004D2D91 /* EndPointManager.swift in Sources */,
 				658250972BD19F35003441BE /* PopularMovies.swift in Sources */,
+				65936BBA2BD9FC21004D2D91 /* SearchBarView.swift in Sources */,
 				658155C72BCFD3650070CC1A /* LoadingView.swift in Sources */,
 				658250992BD1A3C8003441BE /* MoviesError.swift in Sources */,
 				658250952BD18CF1003441BE /* NoFavoriteView.swift in Sources */,
-				659DD32F2BCEE97100059CFE /* GetMovies.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +444,7 @@
 		};
 		659DD3232BCD9A0D00059CFE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C528C60199870F30D819F3B /* Pods-inchurch-ios-challenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -341,6 +452,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"inchurch-ios-challenge/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -367,6 +479,7 @@
 		};
 		659DD3242BCD9A0D00059CFE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBFB1592B0D750C1096E4A61 /* Pods-inchurch-ios-challenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -374,6 +487,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"inchurch-ios-challenge/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
