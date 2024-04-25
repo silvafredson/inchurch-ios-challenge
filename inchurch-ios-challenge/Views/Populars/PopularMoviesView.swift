@@ -1,5 +1,5 @@
 //
-//  MoviesView.swift
+//  PopularMoviesView.swift
 //  inchurch-ios-challenge
 //
 //  Created by Fredson Silva on 15/04/24.
@@ -7,15 +7,15 @@
 
 import SwiftUI
 
-struct MoviesView: View {
+struct PopularMoviesView: View {
     
-    @State private var movies: PopularMoviesResponse?
+    @ObservedObject private var viewModel = PopularMovieViewModel()
     
     var body: some View {
         ScrollView {
             LazyVGrid(columns: [GridItem(.flexible(), spacing: -16), GridItem(.flexible())]) {
-                ForEach(0..<8) { rectangle in
-                    RectangleView()
+                ForEach(viewModel.movies) { movie in
+                    MovieView(couverURL: movie.posterPathURL)
                 }
             }
         }
@@ -23,5 +23,5 @@ struct MoviesView: View {
 }
 
 #Preview {
-    MoviesView()
+    PopularMoviesView()
 }
