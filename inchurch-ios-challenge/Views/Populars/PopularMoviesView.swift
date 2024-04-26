@@ -19,6 +19,9 @@ struct PopularMoviesView: View {
                 }
             }
         }
+        .onAppear{
+            viewModel.loadingPopularMovies()
+        }
     }
 }
 

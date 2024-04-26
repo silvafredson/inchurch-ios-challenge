@@ -9,7 +9,7 @@ import SwiftUI
 
 struct FavoritesView: View {
     
-    var movies: [PopularMovies]
+    //var movies: [PopularMovies]
     
     let columns = [GridItem(.adaptive(minimum: .infinity, maximum: .infinity))]
     
@@ -25,7 +25,7 @@ struct FavoritesView: View {
 //}
 
 #Preview {
-    FavoritesView(movies: [])
+    FavoritesView()
 }
 
 

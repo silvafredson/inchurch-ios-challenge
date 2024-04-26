@@ -14,7 +14,7 @@ struct ContentView: View {
                 .tabItem {
                     Label("Home", systemImage: "house.fill")
                 }
-            FavoritesView(movies: [])
+            FavoritesView()
                 .tabItem {
                     Label("Favorite", systemImage: "star.fill")
                 }

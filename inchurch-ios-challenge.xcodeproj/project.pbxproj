@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		651426112BDC254600928A51 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651426102BDC254600928A51 /* Service.swift */; };
 		658155C72BCFD3650070CC1A /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658155C62BCFD3650070CC1A /* LoadingView.swift */; };
 		658155C92BCFDD590070CC1A /* NotFoundHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658155C82BCFDD590070CC1A /* NotFoundHomeView.swift */; };
 		658250952BD18CF1003441BE /* NoFavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658250942BD18CF1003441BE /* NoFavoriteView.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		651426102BDC254600928A51 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		658155C62BCFD3650070CC1A /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		658155C82BCFDD590070CC1A /* NotFoundHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotFoundHomeView.swift; sourceTree = "<group>"; };
 		658250942BD18CF1003441BE /* NoFavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoFavoriteView.swift; sourceTree = "<group>"; };
@@ -72,6 +74,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6514260F2BDC252300928A51 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				651426102BDC254600928A51 /* Service.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		6582509A2BD1A3D2003441BE /* Data */ = {
 			isa = PBXGroup;
 			children = (
@@ -81,13 +91,13 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
-		65936BBB2BDACBFA004D2D91 /* Services */ = {
+		65936BBB2BDACBFA004D2D91 /* API */ = {
 			isa = PBXGroup;
 			children = (
 				65936BBC2BDACC42004D2D91 /* APIManager.swift */,
 				65936BBE2BDAEA14004D2D91 /* EndPointManager.swift */,
 			);
-			path = Services;
+			path = API;
 			sourceTree = "<group>";
 		};
 		65936BC02BDAEA55004D2D91 /* EndPoints */ = {
@@ -129,9 +139,10 @@
 		659DD3162BCD9A0C00059CFE /* inchurch-ios-challenge */ = {
 			isa = PBXGroup;
 			children = (
-				65936BC02BDAEA55004D2D91 /* EndPoints */,
-				65936BBB2BDACBFA004D2D91 /* Services */,
 				659DD3172BCD9A0C00059CFE /* inchurch_ios_challengeApp.swift */,
+				6514260F2BDC252300928A51 /* Services */,
+				65936BC02BDAEA55004D2D91 /* EndPoints */,
+				65936BBB2BDACBFA004D2D91 /* API */,
 				6582509A2BD1A3D2003441BE /* Data */,
 				659DD3292BCDAA9200059CFE /* Views */,
 				659DD3192BCD9A0C00059CFE /* ContentView.swift */,
@@ -309,6 +320,7 @@
 				6582509C2BD1FCE6003441BE /* HorizontalRectangleView.swift in Sources */,
 				658155C92BCFDD590070CC1A /* NotFoundHomeView.swift in Sources */,
 				65936BC52BDAEE75004D2D91 /* PopularMovieViewModel.swift in Sources */,
+				651426112BDC254600928A51 /* Service.swift in Sources */,
 				658F7A3E2BD066D10097C5ED /* MoviesInfoView.swift in Sources */,
 				65936BC22BDAEA67004D2D91 /* EndPoint.swift in Sources */,
 				65936BBF2BDAEA14004D2D91 /* EndPointManager.swift in Sources */,

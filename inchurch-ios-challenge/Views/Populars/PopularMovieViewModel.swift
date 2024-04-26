@@ -8,8 +8,17 @@
 import Foundation
 
 final class PopularMovieViewModel: ObservableObject {
-    var movies: [PopularMovies] = []    
+    @Published var movies: [PopularMovies] = []   
+    let service = Service()
+    
     func loadingPopularMovies() {
-        
+        service.getPopularMovies { completion in
+            switch completion {
+            case .success(let movies):
+                self.movies = movies
+            case .failure(let error):
+                print(error)
+            }
+        }
     }
 }

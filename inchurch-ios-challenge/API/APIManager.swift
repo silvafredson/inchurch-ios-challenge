@@ -8,7 +8,7 @@
 import Foundation
 
 protocol APIManager {
-    func request<T: Codable>(_ endpoint: EndpointManager, _ page: Int, completion: @escaping (Result <T, MoviesError>) -> Void)
+    func request<T: Codable>(_ endpoint: EndpointManager, completion: @escaping (Result <T, MoviesError>) -> Void)
 }
 
 final class API: APIManager {
@@ -19,7 +19,7 @@ final class API: APIManager {
         self.urlSession = urlSession
     }
     
-    func request<T>(_ endpoint: EndpointManager, _ page: Int, completion: @escaping (Result<T, MoviesError>) -> Void) where T : Decodable, T : Encodable {
+    func request<T>(_ endpoint: EndpointManager, completion: @escaping (Result<T, MoviesError>) -> Void) where T : Decodable, T : Encodable {
         
         if let url = endpoint.url {
             
@@ -38,7 +38,7 @@ final class API: APIManager {
                 } catch {
                     completion(.failure(MoviesError.invalidData))
                 }
-            }
+            }.resume()
             
         } else {
             completion(.failure(MoviesError.invalidURL))
@@ -46,6 +46,3 @@ final class API: APIManager {
     }
     
 }
-
-
-
